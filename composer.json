@@ -2,6 +2,7 @@
     "name": "kelvinwongg/ci-rest-controller",
     "description": "Rest Controller for Codeigniter",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kelvin Wong",
