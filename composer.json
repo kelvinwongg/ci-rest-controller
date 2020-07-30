@@ -1,0 +1,17 @@
+{
+    "name": "kelvinwongg/ci-rest-controller",
+    "description": "Rest Controller for Codeigniter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kelvin Wong",
+            "email": "kelvinwonggg@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "kelvinwongg\\CIRestController\\": "src/"
+        }
+    }
+}
