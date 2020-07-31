@@ -56,7 +56,7 @@ class RestController extends \CI_Controller {
    * Restful GET request
    */
   public function get($params) {
-    // $this->oauth2->handleResourceRequest('staff');
+    $this->oauth2->handleResourceRequest('staff');
     $ret = $this->model->get(
       $this->endpoint,
       $params[$this->endpoint]
@@ -124,7 +124,7 @@ class RestController extends \CI_Controller {
    * Restful DELETE request
    */
   public function delete($params) {
-    // $this->oauth2->handleResourceRequest('staff');
+    $this->oauth2->handleResourceRequest('staff');
     $ret = $this->model->delete(
       $this->endpoint,
       $params[$this->endpoint]
