@@ -1,7 +1,6 @@
 <?php
 /**
- * Attempt to mimic a Restful API endpoint
- * with minimal effort in Codeigniter controller
+ * Restful Controller for Codeigniter
  */
 namespace kelvinwongg\CIRestController;
 
@@ -17,7 +16,7 @@ class RestController extends \CI_Controller {
     $this->verb = $this->input->method();
     $this->params = $this->uri->uri_to_assoc(1);
     $this->load->library( 'oauth2' );
-    $this->load->model( $this->endpoint . '_model', 'model' );
+    $this->load->model( 'restful_model', 'model' );
   }
 
   /**

@@ -1,6 +1,6 @@
 {
     "name": "kelvinwongg/ci-rest-controller",
-    "description": "Rest Controller for Codeigniter",
+    "description": "Restful Controller/Model for Codeigniter",
     "type": "library",
     "license": "MIT",
     "authors": [
